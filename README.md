@@ -7,3 +7,4 @@ More details in the report..
 AFter downloading, place all XML files and the inspectionProfiles file into new .idea files. THen, create virtual environment to run this project.
 Coded in PyCharm. (using Python Interpretor 3.10)
 Moreover, the sample audio files are provided in the static folder. ( it has 8 .mp3 files)
+
