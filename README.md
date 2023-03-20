@@ -8,3 +8,5 @@ AFter downloading, place all XML files and the inspectionProfiles file into new 
 Coded in PyCharm. (using Python Interpretor 3.10)
 Moreover, the sample audio files are provided in the static folder. ( it has 8 .mp3 files)
 
+![home](https://user-images.githubusercontent.com/103335581/226317421-131cc92c-92bb-45af-8645-0d7229b87a5a.png)
+![about](https://user-images.githubusercontent.com/103335581/226317441-c8a81900-d9fe-4de2-8034-c14363b602c8.png)
