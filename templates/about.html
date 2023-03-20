@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>About</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="script.js"></script>
+     <style>
+         #bg::before{
+			content:"";
+			background-image:url('static/images/0.png');
+			background-size: 100%;
+			background-repeat: none;
+			position :absolute;
+			width:100%;
+			height:100%;
+			z-index:-1;
+			opacity: 0.5;
+		}
+		#about{
+			text-align:center;
+			 margin-top: 90px;
+            margin-left: 370px;
+		}
+
+    </style>
+</head>
+
+<body class="bg-black" id="bg">
+<div>
+    <nav class="navbar nav-expand-lg justify-content-center" style="margin-bottom:30px;">
+    <ul class="nav justify-content-center">
+<li>
+</li>
+  <li class="nav-item">
+    <a class="nav-link active text-white text-lg" aria-current="page" href="index.html"><b>Home</b></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white" href="lsh.html"><b>LSH</b></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white" href="about.html"><b>About</b></a>
+  </li>
+</ul>
+</nav>
+</div>
+
+<div class="header text-white ">
+    <h2 align="center" color="white"><b>FLASK WEB APP</b></h2>
+
+    <p align="center" color="white">BDA Assignment #1</p>
+</div>
+
+<!-- <p style="background-image: "C:\Users\HAMMAD\Desktop\BDA assignment\web app\images\0.png" ('0.png');"> -->
+<div id="about" class="text-white" style="font-size: 13px;">
+    <p>
+        21st Batch Students currently enrolled in BS Data Sciences @ FAST NUCES. <br>
+        The objective of this assignment was to implement Locality Sensitive Hashing (LSH) on audio data
+        and evaluate its performance for duplicate detection.
+    </p>
+</div>
+</body>
+</html>
